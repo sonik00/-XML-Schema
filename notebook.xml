@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="notebook.xsd">
+  <offices>
+    <office code="MSK">Московский офис</office>
+    <office code="SPB">Санкт-Петербургский офис</office>
+  </offices>
+
+  <person id="p1" office="MSK">
+    <name>
+      <first>Иван</first>
+      <surname>Петров</surname>
+    </name>
+    <address>
+      <city>Москва</city>
+      <street>Тверская, 10</street>
+      <index>125009</index>
+    </address>
+    <phones>
+      <phone type="work">123-45-67</phone>
+      <phone type="home">765-43-21</phone>
+    </phones>
+  </person>
+
+  <person id="p2" office="SPB">
+    <name>
+      <first>Анна</first>
+      <surname>Смирнова</surname>
+    </name>
+    <address>
+      <index>190000</index>
+      <city>Санкт-Петербург</city>
+      <street>Невский проспект, 25</street>
+    </address>
+    <phones>
+      <phone>222-33-44</phone>
+    </phones>
+  </person>
+</notebook>
